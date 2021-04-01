@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog.html
+- name: Configurations
+  link: /configurations.html  
+- name: Bookmarks
+  link: /bookmarks.html  
+- name: Staff
+  link: /staff.html  
+- name: About
+  link: /about.html  
+- name: Contact
+  link: /contact.html
