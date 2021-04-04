@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-04T14:29:48+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">quidagis.github.io</title><subtitle>Jekyll-based GH Pages Blog</subtitle><entry><title type="html">The Site Now Works</title><link href="http://localhost:4000/2021/04/04/the-site-now-works.html" rel="alternate" type="text/html" title="The Site Now Works" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/the-site-now-works</id><content type="html" xml:base="http://localhost:4000/2021/04/04/the-site-now-works.html">&lt;p&gt;The site now works.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-04T18:29:05+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">quidagis.github.io</title><subtitle>Jekyll-based GH Pages Blog</subtitle><entry><title type="html">Draft Version Of Template Generator Complete</title><link href="http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete.html" rel="alternate" type="text/html" title="Draft Version Of Template Generator Complete" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete</id><content type="html" xml:base="http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete.html">&lt;p&gt;I have been working on writing a template generator all this week, and the current Technology stack is:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linux.die.net/man/1/whiptail&quot;&gt;Whiptail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;Bash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;Nano&lt;/a&gt; &amp;lt;- Laugh all you want :rofl:&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://locahost/&quot; title=&quot;This link leads nowhere&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;My system is fully configured and capable of using the excellent Microsoft &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS Code Editor&lt;/a&gt;,
+complete with the necessary Haskell, Daml and Development code snippets and syntax highlighting. However, since I 
+first struggled with installing, or attempting to install, RedHat Linux 7.0 in late 2000, I have had a fascination with
+the &lt;a href=&quot;https://en.wikipedia.org/wiki/Command-line_interface&quot;&gt;Command Line Interface&lt;/a&gt; (CLI).&lt;/p&gt;
+
+&lt;p&gt;Quite often with those Linuxes in that era, you could not easily get networking functional as the Graphical User
+Interface (GUI), there you had to learn (Or as I say ‘suffer’) using the CLI, enabling modules, probing modules,
+compiling kernels for non-supported hardware. Frankly at times it was a nightmare.&lt;/p&gt;
+
+&lt;p&gt;Regardless, now I have a fondness for using the various Linux OS that I have, on various architectures; x86_64, x86_32
+and ARM5/7, using the CLI.&lt;/p&gt;
+
+&lt;p&gt;Want to Google something while using the Firefox browser?&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ firefox www.google.co.nz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Want to play some music using VLC?&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd music_directory
+$ nvlc *
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Plus by maintaining key CLI skills, I can use SSH to connect to other systems and execute commands, play music, run
+an X Window over TCP, the range is endless.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I digress.&lt;/p&gt;
+
+&lt;p&gt;While reading through the comprehensive &lt;a href=&quot;https://daml.com/&quot;&gt;Daml&lt;/a&gt; &lt;a href=&quot;https://docs.daml.com/index.html&quot;&gt;documentation&lt;/a&gt;,
+it occured to me that while using Vim on GNU/Linux, there would need to be a lot of code ‘Copy &amp;amp; Paste’ from examples
+or coding from scratch, by hand. While there is nothing wrong with this, it is time consuming and if you are not yet
+competent with Daml, it introduces the opportunity for error(s).&lt;/p&gt;
+
+&lt;p&gt;Clearly, once you are competent with Daml or not-a-novice then the relevant structure and syntax will be available
+from memory and you should be able to build a smart contract, quickly and accurately.&lt;/p&gt;
+
+&lt;p&gt;However, what if you are still not competent? What is you are a non-developer? A non-English native speaker? These 
+use cases will make the barrier to entry of learning Daml and developing Smart Contracts, higher than it needs be.&lt;/p&gt;
+
+&lt;p&gt;Therefore, there are ae least two solutions to this;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The relevant documentation is 100% relevant to the current codebase at the leading edge, and all the examples, code
+snippets and tutorials cover a wide range of use cases and scenarios.&lt;/li&gt;
+  &lt;li&gt;There exists a templating system that is delivered to the user, asks for specific user input, and when complete
+generates a complete smart contract, from program header files to the last argument.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With that in mind, I have been working on making a template generator like this for two reasons; the first is that it
+helps me. In trying to build a generator that outputs sane and correct code, I learn about the interconnections and
+logic for each component (Well in my mind I do). Secondly, once functional, this tool will be available for others
+to use and modify, if they see fit.&lt;/p&gt;
+
+&lt;p&gt;The use of templating generators has grown substantially over the last 20 years, especially in the web space, where
+you can rapidly instantiate a complete web framework with for example Python’s Django or Flask.&lt;/p&gt;
+
+&lt;p&gt;Back to Daml Smart Contracts.&lt;/p&gt;
+
+&lt;p&gt;The most basic contract that you can write is the self-assigned Token contract, referring to
+&lt;a href=&quot;https://docs.daml.com/daml/intro/1_Token.html&quot;&gt;1_Token&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-- Copyright (c) 2021 Digital Asset (Switzerland) GmbH and/or its affiliates. All rights reserved.
+-- SPDX-License-Identifier: Apache-2.0
+
+module Token where
+
+template Token
+  with
+    owner : Party
+  where
+    signatory owner
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Why write this out by hand, when you can use Whiptail and Bash to do it for you? To have it correctly commented,
+formatted and styled as per Daml guidelines?&lt;/p&gt;
+
+&lt;p&gt;To do this is Bash, you take the 7 lines of information (Whitespace Line included), plus the relevant indentations, 
+wrap them in a function and reproduce them in a file somewhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/bash
+# Purpose:      Generate Daml Smart Contracts using a build generator
+#               with Whiptail, Bash, GNU/Linux
+#
+# Author:       Quid Agis under GPL v2.0+
+# Email:        quidagis [ AT ] keemail.me
+# Date:         Fri 02 Apr 2021 20:21:59 NZDT
+# Ver:          0.020
+# ------------------------------------------
+
+
+# Daml comment header block
+echo &quot;-- Copyright (c) 2021 Digital Asset (Switzerland) GmbH and/or its affiliates. All rights reserved.&quot; &amp;gt;&amp;gt; token.daml
+echo &quot;-- SPDX-License-Identifier: Apache-2.0&quot; &amp;gt;&amp;gt; token.daml
+
+# 1 line space
+echo &quot;&quot; &amp;gt;&amp;gt; token.daml
+
+# Module heading
+echo &quot;module token where&quot; &amp;gt;&amp;gt; token.daml
+
+#1 line space
+echo &quot;&quot; &amp;gt;&amp;gt; token.daml
+
+# Template body
+echo &quot;template Token&quot; &amp;gt;&amp;gt; token.daml
+echo &quot;  with&quot; &amp;gt;&amp;gt; token.daml
+echo &quot;    owner : Party&quot; &amp;gt;&amp;gt; token.daml
+echo &quot;  where&quot; &amp;gt;&amp;gt; token.daml
+echo &quot;    signatory owner&quot; &amp;gt;&amp;gt; token.daml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;On execution, there will be a file titled ‘token.daml’ in the local directory, and the contents will look like this:&lt;/p&gt;</content><author><name>quidagis</name></author><summary type="html">I have been working on writing a template generator all this week, and the current Technology stack is:</summary></entry><entry><title type="html">The Site Now Works</title><link href="http://localhost:4000/2021/04/04/the-site-now-works.html" rel="alternate" type="text/html" title="The Site Now Works" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/the-site-now-works</id><content type="html" xml:base="http://localhost:4000/2021/04/04/the-site-now-works.html">&lt;p&gt;The site now works.&lt;/p&gt;
 
 &lt;p&gt;Apparently the issue was a conflict between the name of the Github account: quid-agis, and the name of 
 the repository that was wanted =&amp;gt; quidagis.github.io. According to Github Support, if you want to use 
@@ -8,7 +130,14 @@ Github Pages as your personal (User) hosting service, then the username and repo
 
 &lt;p&gt;… 30 minutes later, success.&lt;/p&gt;
 
-&lt;p&gt;“Just one little -“&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">The site now works.</summary></entry><entry><title type="html">Another Small Test</title><link href="http://localhost:4000/2021/03/29/another-small-test.html" rel="alternate" type="text/html" title="Another Small Test" /><published>2021-03-29T00:00:00+13:00</published><updated>2021-03-29T00:00:00+13:00</updated><id>http://localhost:4000/2021/03/29/another-small-test</id><content type="html" xml:base="http://localhost:4000/2021/03/29/another-small-test.html">&lt;p&gt;Another minor test of configurations.&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">Another minor test of configurations.</summary></entry><entry><title type="html">First Post From A Simple Jekyll Blog</title><link href="http://localhost:4000/2021/03/29/first-post-from-a-simple-jekyll-blog.html" rel="alternate" type="text/html" title="First Post From A Simple Jekyll Blog" /><published>2021-03-29T00:00:00+13:00</published><updated>2021-03-29T00:00:00+13:00</updated><id>http://localhost:4000/2021/03/29/first-post-from-a-simple-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2021/03/29/first-post-from-a-simple-jekyll-blog.html">&lt;p&gt;After a lot of configuring, I have decided to make my own 
+&lt;p&gt;“Just one little -“&lt;/p&gt;
+
+&lt;p&gt;Edit: 04/04/2021, 1608hrs, NZST.&lt;/p&gt;
+
+&lt;p&gt;The site theme has been altered from ‘minima’ to ‘jekyll-theme-minimal’, however after modifying
+_config.yaml, installing the new Gems, undating the Bundle, the theme has not changed.&lt;/p&gt;
+
+&lt;p&gt;Either locally or remotely on Github Pages. That’s a job for tomorrow.&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">The site now works.</summary></entry><entry><title type="html">Another Small Test</title><link href="http://localhost:4000/2021/03/29/another-small-test.html" rel="alternate" type="text/html" title="Another Small Test" /><published>2021-03-29T00:00:00+13:00</published><updated>2021-03-29T00:00:00+13:00</updated><id>http://localhost:4000/2021/03/29/another-small-test</id><content type="html" xml:base="http://localhost:4000/2021/03/29/another-small-test.html">&lt;p&gt;Another minor test of configurations.&lt;/p&gt;</content><author><name>admin</name></author><summary type="html">Another minor test of configurations.</summary></entry><entry><title type="html">First Post From A Simple Jekyll Blog</title><link href="http://localhost:4000/2021/03/29/first-post-from-a-simple-jekyll-blog.html" rel="alternate" type="text/html" title="First Post From A Simple Jekyll Blog" /><published>2021-03-29T00:00:00+13:00</published><updated>2021-03-29T00:00:00+13:00</updated><id>http://localhost:4000/2021/03/29/first-post-from-a-simple-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/2021/03/29/first-post-from-a-simple-jekyll-blog.html">&lt;p&gt;After a lot of configuring, I have decided to make my own 
 &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; based blog,
 &lt;br /&gt;It is simple, lightweight and has no content except for two brief entries.&lt;/p&gt;
 
