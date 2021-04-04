@@ -1,3 +1,47 @@
-.current { color: purple; }
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="quidagis.github.io" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>quidagis.github.io | Jekyll-based GH Pages Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="quidagis.github.io" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Jekyll-based GH Pages Blog" />
+<meta property="og:description" content="Jekyll-based GH Pages Blog" />
+<link rel="canonical" href="http://localhost:4000/assets/css/styles.css" />
+<meta property="og:url" content="http://localhost:4000/assets/css/styles.css" />
+<meta property="og:site_name" content="quidagis.github.io" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="quidagis.github.io" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/assets/css/styles.css","headline":"quidagis.github.io","description":"Jekyll-based GH Pages Blog","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-/*# sourceMappingURL=styles.css.map */
+  </head>
+  <body>
+    <nav>
+  
+    <a href="/" >Home</a>
+  
+    <a href="/blog.html" >Blog</a>
+  
+    <a href="/configurations.html" >Configurations</a>
+  
+    <a href="/bookmarks.html" >Bookmarks</a>
+  
+    <a href="/staff.html" >Staff</a>
+  
+    <a href="/about.html" >About</a>
+  
+    <a href="/contact.html" >Contact</a>
+  
+</nav>
+
+    @import "main";
+
+  </body>
+ </html>

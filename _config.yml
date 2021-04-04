@@ -18,6 +18,8 @@ defaults:
     values:
       layout: "default"
 
+theme: jekyll-theme-minimal
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
