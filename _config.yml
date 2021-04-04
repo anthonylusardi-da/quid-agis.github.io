@@ -24,7 +24,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# EOF
-
-theme: jekyll-theme-minimal
