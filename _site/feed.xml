@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-04T18:51:05+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">quidagis.github.io</title><subtitle>Jekyll-based GH Pages Blog</subtitle><entry><title type="html">Draft Version Of Template Generator Complete</title><link href="http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete.html" rel="alternate" type="text/html" title="Draft Version Of Template Generator Complete" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete</id><content type="html" xml:base="http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete.html">&lt;p&gt;I have been working on writing a template generator all this week, and the current Technology stack is:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-04T19:04:31+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">quidagis.github.io</title><subtitle>Jekyll-based GH Pages Blog</subtitle><entry><title type="html">Draft Version Of Template Generator Complete</title><link href="http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete.html" rel="alternate" type="text/html" title="Draft Version Of Template Generator Complete" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete</id><content type="html" xml:base="http://localhost:4000/2021/04/04/draft-version-of-template-generator-complete.html">&lt;p&gt;I have been working on writing a template generator all this week, and the current Technology stack is:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://linux.die.net/man/1/whiptail&quot;&gt;Whiptail&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;Bash&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;Nano&lt;/a&gt; &amp;lt;- Laugh all you want :rofl:&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;Nano&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://locahost/&quot; title=&quot;This link leads nowhere&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;My system is fully configured and capable of using the excellent Microsoft &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS Code Editor&lt;/a&gt;,
-complete with the necessary Haskell, Daml and Development code snippets and syntax highlighting. However, since I 
+complete with the necessary Haskell, Daml, Development code snippets and syntax highlighting. However, since I 
 first struggled with installing, or attempting to install, RedHat Linux 7.0 in late 2000, I have had a fascination with
 the &lt;a href=&quot;https://en.wikipedia.org/wiki/Command-line_interface&quot;&gt;Command Line Interface&lt;/a&gt; (CLI).&lt;/p&gt;
 
 &lt;p&gt;Quite often with those Linuxes in that era, you could not easily get networking functional as the Graphical User
-Interface (GUI), there you had to learn (Or as I say ‘suffer’) using the CLI, enabling modules, probing modules,
-compiling kernels for non-supported hardware. Frankly at times it was a nightmare.&lt;/p&gt;
+Interface (GUI) were hit-and-miss, often you &lt;em&gt;had&lt;/em&gt; to learn (Or as I say ‘suffer’) using the CLI, enabling modules,
+probing modules, compiling kernels for non-supported hardware. Frankly at times it was a nightmare.&lt;/p&gt;
 
 &lt;p&gt;Regardless, now I have a fondness for using the various Linux OS that I have, on various architectures; x86_64, x86_32
 and ARM5/7, using the CLI.&lt;/p&gt;
@@ -28,6 +27,10 @@ and ARM5/7, using the CLI.&lt;/p&gt;
 &lt;p&gt;Want to play some music using VLC?&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd music_directory
 $ nvlc *
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Want to shut a system down?&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo shutdown -h now
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Plus by maintaining key CLI skills, I can use SSH to connect to other systems and execute commands, play music, run
@@ -46,11 +49,11 @@ from memory and you should be able to build a smart contract, quickly and accura
 &lt;p&gt;However, what if you are still not competent? What is you are a non-developer? A non-English native speaker? These 
 use cases will make the barrier to entry of learning Daml and developing Smart Contracts, higher than it needs be.&lt;/p&gt;
 
-&lt;p&gt;Therefore, there are ae least two solutions to this;&lt;/p&gt;
+&lt;p&gt;Therefore, there are are least two obvious solutions to this;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;The relevant documentation is 100% relevant to the current codebase at the leading edge, and all the examples, code
-snippets and tutorials cover a wide range of use cases and scenarios.&lt;/li&gt;
+  &lt;li&gt;The relevant documentation is 100% relevant to the current codebase at the leading edge, at all times and all the
+ examples, code snippets and tutorials cover a wide range of use cases and scenarios.&lt;/li&gt;
   &lt;li&gt;There exists a templating system that is delivered to the user, asks for specific user input, and when complete
 generates a complete smart contract, from program header files to the last argument.&lt;/li&gt;
 &lt;/ol&gt;
@@ -61,7 +64,7 @@ logic for each component (Well in my mind I do). Secondly, once functional, this
 to use and modify, if they see fit.&lt;/p&gt;
 
 &lt;p&gt;The use of templating generators has grown substantially over the last 20 years, especially in the web space, where
-you can rapidly instantiate a complete web framework with for example Python’s Django or Flask.&lt;/p&gt;
+you can rapidly instantiate a complete web framework with for example Python’s Django or Flask frameworks.&lt;/p&gt;
 
 &lt;p&gt;Back to Daml Smart Contracts.&lt;/p&gt;
 
@@ -83,7 +86,7 @@ template Token
 &lt;p&gt;Why write this out by hand, when you can use Whiptail and Bash to do it for you? To have it correctly commented,
 formatted and styled as per Daml guidelines?&lt;/p&gt;
 
-&lt;p&gt;To do this is Bash, you take the 7 lines of information (Whitespace Line included), plus the relevant indentations, 
+&lt;p&gt;To do this in Bash, you take the 7 lines of information (Whitespace Line included), plus the relevant indentations, 
 wrap them in a function and reproduce them in a file somewhere.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -125,7 +128,11 @@ echo &quot;    signatory owner&quot; &amp;gt;&amp;gt; token.daml
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/quid-agis/quid-agis.github.io/main/assets/images/Screenshot_token_daml-2021-04-04_18-23-56.png&quot; alt=&quot;Image of generated Daml code&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This was a long post but I wanted to show the context behind creating a template generator. They are flexible, powerful 
-and extensible. I will post more template-related code in the next few weeks.&lt;/p&gt;</content><author><name>quidagis</name></author><summary type="html">I have been working on writing a template generator all this week, and the current Technology stack is:</summary></entry><entry><title type="html">The Site Now Works</title><link href="http://localhost:4000/2021/04/04/the-site-now-works.html" rel="alternate" type="text/html" title="The Site Now Works" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/the-site-now-works</id><content type="html" xml:base="http://localhost:4000/2021/04/04/the-site-now-works.html">&lt;p&gt;The site now works.&lt;/p&gt;
+and extensible. I will post more template-related code in the next few weeks.&lt;/p&gt;
+
+&lt;h4 id=&quot;-eof&quot;&gt;# EOF&lt;/h4&gt;
+
+&lt;p&gt;… my enduring homage to Tron.&lt;/p&gt;</content><author><name>quidagis</name></author><summary type="html">I have been working on writing a template generator all this week, and the current Technology stack is:</summary></entry><entry><title type="html">The Site Now Works</title><link href="http://localhost:4000/2021/04/04/the-site-now-works.html" rel="alternate" type="text/html" title="The Site Now Works" /><published>2021-04-04T00:00:00+13:00</published><updated>2021-04-04T00:00:00+13:00</updated><id>http://localhost:4000/2021/04/04/the-site-now-works</id><content type="html" xml:base="http://localhost:4000/2021/04/04/the-site-now-works.html">&lt;p&gt;The site now works.&lt;/p&gt;
 
 &lt;p&gt;Apparently the issue was a conflict between the name of the Github account: quid-agis, and the name of 
 the repository that was wanted =&amp;gt; quidagis.github.io. According to Github Support, if you want to use 
