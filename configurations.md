@@ -2,7 +2,7 @@
 layout: default
 title: The Blog of Quid Agis / Configs
 ---
-## Confiurations page
+## Configurations page
 
 This page will feature various configurations that I have found useful.
 
