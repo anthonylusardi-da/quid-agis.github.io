@@ -125,6 +125,9 @@ echo "    signatory owner" >> token.daml
 
 On execution, there will be a file titled 'token.daml' in the local directory, and the contents will look like this:
 
+![Image of generated Daml code](https://raw.githubusercontent.com/quid-agis/quid-agis.github.io/main/assets/images/Screenshot_token_daml-2021-04-04_18-23-56.png)
 
+This was a long post but I wanted to show the context behind creating a template generator. They are flexible, powerful 
+and extensible. I will post more template-related code in the next few weeks.
 
 
