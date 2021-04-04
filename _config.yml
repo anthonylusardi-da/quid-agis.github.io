@@ -26,3 +26,5 @@ plugins:
   - jekyll-seo-tag
 
 # EOF
+
+theme: jekyll-theme-minimal
