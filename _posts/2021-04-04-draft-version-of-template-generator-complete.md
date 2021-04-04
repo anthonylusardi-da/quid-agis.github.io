@@ -50,7 +50,7 @@ competent with Daml, it introduces the opportunity for error(s).
 Clearly, once you are competent with Daml or not-a-novice then the relevant structure and syntax will be available
 from memory and you should be able to build a smart contract, quickly and accurately.
 
-However, what if you are still not competent? What is you are a non-developer? A non-English native speaker? These 
+However, what if you are still not competent? What if you are a non-developer? A non-English native speaker? These 
 use cases will make the barrier to entry of learning Daml and developing Smart Contracts, higher than it needs be.
 
 Therefore, there are are least two obvious solutions to this;
